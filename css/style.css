@@ -1,11 +1,12 @@
 html {
     box-sizing: border-box;
-    background-color: #2e5849;
+    background: linear-gradient(90deg, rgb(247, 84, 115), rgb(226, 214, 111));
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+    color: white;
   }
   
   *, *:before, *:after {
@@ -23,7 +24,7 @@ html {
   .wrapper {
     padding: 20px;
     max-width: 350px;
-    background: rgba(255,255,255,0.95);
+    background: #e2d66f2e;
     box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
   }
   
@@ -50,7 +51,7 @@ html {
   }
 
   .tasks input:checked + label {
-    text-decoration: line-through;
+    text-decoration: line-through #f75473;
   }
   
   .add-items {
@@ -59,26 +60,22 @@ html {
   
   .add-items input {
     padding: 10px;
-    border: 1px solid #183129;
-    box-shadow: inset 0 0 10px #000;
-    background-color: #1c382f;
+    border: 1px solid #e2d66fa6;
+    box-shadow: inset 0 0 10px #e2d66f;
+    background-color: #f75473;
     color: #fff;
   }
 
   .add-items input::placeholder {
-      color: rgba(255, 255, 255, .5);
-  }
-
-  .add-items input:focus {
-    box-shadow: inset 25px rgba(0,0,0,.5);
+      color: rgba(255, 255, 255, 0.664);
   }
   
   button {
     padding: 5px;
     margin: 1px;
-    border: 1px solid #183129;
-    box-shadow: inset 0 0 10px #000;
-    background-color: #2e5849;
+    border: 1px solid #e2d66fa6;
+    box-shadow: inset 0 0 10px #e2d66f;
+    background-color: #f75473;
     color: #fff;
   }
   
